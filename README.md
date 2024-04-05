@@ -1,4 +1,4 @@
-# Sanataka002_PLA
+# Santaka002_PLA
 {WORK IN PROGRESS}
 
 Attempts to dump the logic from the PLAs (программируемую логическую матрицу, or "programmable logic matrix") used on the Сантака 002 (Santaka) computer, a Lithuanian/Belarusan clone of the Sinclair ZX Spectrum.
