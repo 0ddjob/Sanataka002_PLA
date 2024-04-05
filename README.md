@@ -20,3 +20,9 @@ A 28-pin turned pin IC socket is used to mount the in-circuit PLA (Soviet 2.5mm 
 For sanity checking, a Python script is used to convert the binary dump to ASCII.
 
 Further checking will be done on the running machine by capturing the PLA activity using a logic analyser and comparing with the ASCII file.
+
+YouTube video showing the process here:
+
+
+<a href="http://www.youtube.com/watch?feature=player_embedded&v=-ttpHL7AdvU" target="_blank"><img src="http://img.youtube.com/vi/-ttpHL7AdvU/0.jpg" 
+alt="YouTube Video" width="240" height="180" border="10" /></a>
