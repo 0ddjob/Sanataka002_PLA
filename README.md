@@ -26,3 +26,11 @@ YouTube video showing the process here:
 
 <a href="http://www.youtube.com/watch?feature=player_embedded&v=-ttpHL7AdvU" target="_blank"><img src="http://img.youtube.com/vi/-ttpHL7AdvU/0.jpg" 
 alt="YouTube Video" width="240" height="180" border="10" /></a>
+
+## List of files:
+* PLA_DUMP_KR556RT1.ino  
+   Arduino sketch to dump contents of PLA creating a binary file (same as for EPROM)  
+* pla2asc.py  
+   Python3 script to extract data from the binary file for sanity checking
+* D14_01_0A  
+   Contents of D14 PLA  
