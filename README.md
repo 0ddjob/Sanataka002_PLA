@@ -35,4 +35,6 @@ alt="YouTube Video" width="240" height="180" border="10" /></a>
 * pla2asc.py  
    Python3 script to extract data from the binary file for sanity checking
 * D14_01_0A  
-   Contents of D14 PLA  
+   Contents of D14 PLA
+* Schematics  
+   Very little information is available online about this machine - the schematics are about all there is
