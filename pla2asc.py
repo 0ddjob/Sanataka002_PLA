@@ -31,7 +31,14 @@ with open(pla_filename,'rb') as pla_fp:
         input_bits = f"{current_addr:016b}"
         # Create output file for each unique output
         outputs_filename = bit_from_byte+".TXT"
-        outputs.setdefault(outputs_filename, open(outputs_filename,'w')) 
+        # Redundant because of setdefault, but I wanted to print
+        # out each time a new output file is created
+        if (outputs.get(outputs_filename,-1) == -1):
+            print(f">> Created new outputs file {outputs_filename}")
+            new_output_file={outputs_filename:open(outputs_filename,'w')}
+            outputs.update(new_output_file)
+        # setdefault resulted in some output files having a lot of null (0x00) bytes at the start
+        # outputs.setdefault(outputs_filename, open(outputs_filename,'w')) 
         # Write the input bit string to the ouput
         outputs[outputs_filename].write(f"{input_bits}\n")
         # Also write input bits & output bits to sanity check file
