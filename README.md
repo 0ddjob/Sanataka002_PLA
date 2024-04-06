@@ -11,7 +11,9 @@ The machine uses several PLAs (Soviet-era КР556РТ1, or KR556RT1) which, as f
 
 This is an attempt to figure out the logic so that they can be reproduced if needed.
 
-The dumping is performed in-circuit using a Freetronics EtherMega (Arduino Mega compatible with SD interface).  Each combination of 16-bit inputs is applied and the resulting 8-bit output captured.  Information about wiring can be found in the Arduino sketch.
+The dumping is performed in-circuit using a Freetronics EtherMega (Arduino Mega compatible with SD interface).  Obviously this isn't ideal but I'm not confident that de-soldering the chip won't result in its distruction, so let's try non-invasive methods first ...  
+
+Each combination of 16-bit inputs is applied and the resulting 8-bit output captured.  Information about wiring can be found in the Arduino sketch.
 
 A 28-pin turned pin IC socket is used to mount the in-circuit PLA (Soviet 2.5mm pitch vs Western 2.54mm/0.1" pitch seems okay).  The cabling between the PLA and Arduino is made via this socket.  The chip's power input pin (pin 28) is isolated from the computer's power rail and is powered from the Arduino itself.
 
