@@ -1,5 +1,5 @@
 # Santaka002_PLA
-{WORK IN PROGRESS}
+{WORK IN PROGRESS: 6-Apr-2024}
 
 Attempts to dump the logic from the PLAs (программируемую логическую матрицу, or "programmable logic matrix") used on the Сантака 002 (Santaka) computer, a Lithuanian/Belarusan clone of the Sinclair ZX Spectrum.
 
@@ -13,7 +13,7 @@ This is an attempt to figure out the logic so that they can be reproduced if nee
 
 The dumping is performed in-circuit using a Freetronics EtherMega (Arduino Mega compatible with SD interface).  Each combination of 16-bit inputs is applied and the resulting 8-bit output captured.  Information about wiring can be found in the Arduino sketch.
 
-A 28-pin turned pin IC socket is used to mount the in-circuit PLA (Soviet 2.5mm pitch vs Western 2.54mm/0.1" pitch seems okay).  The cabling between the PLA and Arduino is made via this socket.
+A 28-pin turned pin IC socket is used to mount the in-circuit PLA (Soviet 2.5mm pitch vs Western 2.54mm/0.1" pitch seems okay).  The cabling between the PLA and Arduino is made via this socket.  The chip's power input pin (pin 28) is isolated from the computer's power rail and is powered from the Arduino itself.
 
 ![EtherMega](pictures/IMG_6040.jpeg)
 
