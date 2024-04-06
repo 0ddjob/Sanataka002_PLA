@@ -20,4 +20,4 @@ The D14 PLA has several outputs connected back to the inputs:
    A15  
    A16 (7MHz)  
 
-![D14_schematic](../pictures/D14_schematic.jpg)
+![D14_schematic](../schematics/D14_schematic.jpg)
